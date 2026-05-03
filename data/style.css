@@ -50,14 +50,14 @@ img {
 	from {
 		top: 0vh;
 		opacity: var(--opacity-start);
-		rotate: var(--rotation-start);
+		transform: rotate(var(--rotation-start));
 		scale: var(--scale-start);
 		left: var(--position-start)
 	}
 	to {
 		top: 100vh;
 		opacity: var(--opacity-end);
-		rotate: var(--rotation-end);
+		transform: rotate(var(--rotation-end));
 		scale: var(--scale-end);
 		left: var(--position-end);
 	}
