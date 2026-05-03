@@ -334,7 +334,7 @@ body:has(.staff-page) .background {
 /* events */
 .image-box {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 22em);
+	grid-template-columns: repeat(auto-fit, min(22em, 100%));
 	gap: 0.7em;
 }
 
@@ -342,7 +342,7 @@ body:has(.staff-page) .background {
 	background-color: black;
 	border: 0.2em double #3b1b72;
 	border-radius: 0.15em;
-	width: 22em;
+	width: 100%;
 }
 
 /* misc */
