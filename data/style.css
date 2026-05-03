@@ -1,17 +1,16 @@
 
 @font-face {
-	font-family: "Minecraft Regular";
-	src: url("fonts/1_Minecraft-Regular.eot"); /* EOT file */
-	src: url("fonts/1_Minecraft-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-			 url("fonts/1_Minecraft-Regular.woff") format("woff"), /* Modern browsers */
-			 url("fonts/1_Minecraft-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
-			 url("fonts/1_Minecraft-Regular.svg#Minecraft-Regular") format("svg"); /* Legacy iOS */
+	font-family: "Minecraft";
+	src: url("fonts/Minecraft.woff2") format("woff2"), 
+		url("fonts/Minecraft.woff") format("woff"),
+		url("fonts/Minecraft.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 body {
-	font-family: "Minecraft Regular", Helvetica, sans-serif;
+	font-family: "Minecraft", Helvetica, sans-serif;
 	font-size: 1.2rem;
 	text-wrap: balance;
 	color: #d0c5e6;
@@ -293,7 +292,6 @@ body:has(.staff-page) .background {
  }
 
  .list-button {
-	font-family: "Minecraft Regular", Helvetica, sans-serif;
 	color: #d0c5e6;
 	text-decoration: none;
 	text-align: center;
