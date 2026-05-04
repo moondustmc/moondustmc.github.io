@@ -275,20 +275,20 @@ body:has(.staff-page) .background {
 		 2px  2px 0 rgba(0, 0, 0, 0.3);
 }
 
-.map.survival {
+.map#survival {
 	background-image:url(backgrounds/survival.png);
 	margin-top: 0;
 }
 
-.map.skyblock {
+.map#skyblock {
 	background-image:url(backgrounds/skyblock.png);
 }
 
-.map.creative {
+.map#creative {
 	background-image:url(backgrounds/creative.png);
 }
 
-.map.tiny {
+.map#tiny {
 	background-image:url(backgrounds/tiny.png);
 	margin-bottom: 0;
 }
