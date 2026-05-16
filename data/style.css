@@ -95,10 +95,14 @@ a:hover {
 }
 
 .moondust-logo {
-	height: 90%;
+	height: 100%;
 	width: auto;
 }
+
 .moondust-logo:hover { animation: tada 0.5s;}
+a:has(.moondust-logo) {
+	height: 90%;
+}
 
 .moondust-title { padding-left: 0.4em; }
 
