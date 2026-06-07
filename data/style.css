@@ -13,6 +13,11 @@ body {
 	font-family: "Minecraft", Helvetica, sans-serif;
 	font-size: 1.2rem;
 	text-wrap: balance;
+	text-shadow:
+		-1px -1px 0 #27104E,
+		 1px -1px 0 #27104E,
+		-1px  1px 0 #27104E,
+		 1px  1px 0 #27104E;
 	color: #d0c5e6;
 	background-image: url("backgrounds/moondust.png");
 	background-size: cover;
@@ -226,11 +231,6 @@ body:has(.staff-page) .background {
 	text-align: center;
 	word-wrap: normal; /* For older browsers */
 	overflow-wrap: normal; /* For newer browsers */
-	text-shadow:
-		-1px -1px 0 #27104E,
-		 1px -1px 0 #27104E,
-		-1px  1px 0 #27104E,
-		 1px  1px 0 #27104E;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(min(22em, 100%), 1fr));
 	gap: 2em;
@@ -240,7 +240,6 @@ body:has(.staff-page) .background {
 .staff-member h1, .staff-member h2 { margin: 0; }
 
 .staff-member h3 {
-	text-wrap: balance;
 	hyphens: auto;
 }
 
@@ -357,7 +356,6 @@ body:has(.staff-page) .background {
 }
 
 body:has(.about) { background-image: url(backgrounds/about.png); }
-.content.about { background-color: rgba(0, 0, 0, 0.4); }
 
 @keyframes tada {
 	from {
