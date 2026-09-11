@@ -334,6 +334,10 @@ body:has(.staff-page) .background {
 	padding: 0;
 }
 
+body:has(.content.newsletters) {
+	background-image: url("backgrounds/newsletter.png");
+}
+
 /* events */
 .image-box {
 	display: grid;
